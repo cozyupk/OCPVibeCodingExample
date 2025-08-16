@@ -29,7 +29,7 @@ Key Ideas
 
 *   **OCP in practice** – each time unit is an independent class, open to extension by chaining to the next unit.
     
-*   **Human + AI collaboration** – initial 2 levels (Seconds, Minutes) were written manually, while higher units (Hours → Years) were generated and refined through AI guidance.
+*   **Human + AI collaboration** – [initial 2 levels (Seconds, Minutes) were written manually](./src/HumanAuthored), while [higher units (Hours → Years) were generated and refined through AI guidance](./src/VibeCoded).
     
 *   **Composable architecture** – `Increment()` cascades through units, and `AsString()` builds a readable `YYYY-MM-DD HH:mm:ss` output.
     
