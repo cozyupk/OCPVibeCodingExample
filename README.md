@@ -29,7 +29,7 @@ Key Ideas
 
 *   **OCP in practice** – each time unit is an independent class, open to extension by chaining to the next unit.
     
-*   **Human + AI collaboration** – initial 2 levels (Seconds, Minutes) were written manually, while higher units (Hours → Years) were generated and refined through AI guidance.
+*   **Human + AI collaboration** – [initial 2 levels (Seconds, Minutes) were written manually](./src/HumanAuthored), while [higher units (Hours → Years) were generated and refined through AI guidance](./src/VibeCoded).
     
 *   **Composable architecture** – `Increment()` cascades through units, and `AsString()` builds a readable `YYYY-MM-DD HH:mm:ss` output.
     
@@ -44,13 +44,8 @@ Example Output
 2025-08-16 14:07:59
 ```
 
-How to Run
+Requires To Build and Run
 ----------
-
-```bash
-dotnet build
-dotnet run
-```
 
 Requires **.NET 8.0** or later.
 
