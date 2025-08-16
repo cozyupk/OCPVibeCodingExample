@@ -44,13 +44,8 @@ Example Output
 2025-08-16 14:07:59
 ```
 
-How to Run
+Requires To Build and Run
 ----------
-
-```bash
-dotnet build
-dotnet run
-```
 
 Requires **.NET 8.0** or later.
 
