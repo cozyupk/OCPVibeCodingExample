@@ -1,6 +1,8 @@
 OCP Vibe Coding Example
 =======================
 
+📖 Full English article available here: [ARTICLE.md](./ARTICLE.md)
+
 > _Built the 2nd floor by hand, then let GPT expand it into a 6-floor building — OCP vibe coding in action._ 🏗️✨
 
 Overview
